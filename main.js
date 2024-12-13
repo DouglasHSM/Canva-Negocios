@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const exportBtn = document.getElementById('exportBtn');
     const sections = document.querySelectorAll('.canvas-section');
 
-    const DEFAULT_PASSWORD = "12345"; // Senha padrão
+    const DEFAULT_PASSWORD = "****"; // Senha padrão
 
     // Salvar dados da tela com nome da versão
     function saveCanvas() {
